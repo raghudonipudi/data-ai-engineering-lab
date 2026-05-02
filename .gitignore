@@ -1,0 +1,5 @@
+venv/*
+.env
+.gitkeep
+__pycache__/*
+ai_engineering/tokenization/__pycache__/
