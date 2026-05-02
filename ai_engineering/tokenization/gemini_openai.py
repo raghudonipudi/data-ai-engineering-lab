@@ -3,7 +3,7 @@ from openai import OpenAI
 
 load_dotenv()
 client = OpenAI(
-    api_key="AIzaSyCaLAp-hZDQqWLmI9eMlVN9i3oTlbqBQq4",
+    api_key=,
     base_url="https://generativelanguage.googleapis.com/v1beta/openai/"
 )
 
