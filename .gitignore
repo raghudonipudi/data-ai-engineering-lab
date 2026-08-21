@@ -4,3 +4,4 @@ venv/*
 __pycache__/*
 ai_engineering/tokenization/__pycache__/
 data_engineering/*/__pycache__/
+**/__pycache__/

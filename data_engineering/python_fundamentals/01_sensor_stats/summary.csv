@@ -1,0 +1,5 @@
+sensor_id,plant_location,count,avg,min,max
+S-101,Menlo Park,4,73.825,72.4,75.0
+S-102,Shanghai,3,69.5,68.9,70.1
+S-103,Menlo Park,4,81.825,80.7,83.4
+S-104,Shanghai,3,54.93333333333334,54.6,55.2
