@@ -3,7 +3,7 @@ Exercise 1: Sensor Readings Summary
 See README.md in this folder for the full task description.
 
 Fill in the functions below. Run with:
-    ..\..\.venv\Scripts\python.exe exercise.py
+    python exercise.py
 """
 
 import csv

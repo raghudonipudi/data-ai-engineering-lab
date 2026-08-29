@@ -49,5 +49,5 @@ why, then you take another pass.
 ## Running it
 
 ```bash
-C:\Raghu\de-practice\.venv\Scripts\python.exe exercise.py
+python exercise.py
 ```

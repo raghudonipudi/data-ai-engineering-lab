@@ -5,3 +5,7 @@ __pycache__/*
 ai_engineering/tokenization/__pycache__/
 data_engineering/*/__pycache__/
 **/__pycache__/
+
+# generated exercise outputs (derived, not source)
+data_engineering/python_fundamentals/**/clean_orders.csv
+data_engineering/python_fundamentals/**/region_month_summary.csv
