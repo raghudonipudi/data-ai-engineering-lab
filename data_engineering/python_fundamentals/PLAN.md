@@ -26,18 +26,24 @@ is also paused for now — pure language/DataFrame fluency first.
       Done 2026-08-22 — both implementations correct and, after review,
       made to agree on tie-breaking (`method="min"` / `F.rank()`, ties
       share the lowest rank).
-- [ ] **09 — Spark SQL**: `09_spark_sql/` — same join + window-function
-      task as 08, but via `spark.sql(...)` and temp views instead of the
-      DataFrame API. Leans on 19 years of SQL background directly.
-      **Next immediate step.**
-- [ ] **10 — Nested/semi-structured data**: structs, arrays, `explode` —
+- [x] **09 — Spark SQL**: `09_spark_sql/` — same join + window-function
+      task as 08, but via `spark.sql(...)` and temp views. Done
+      2026-08-22, correct and matched 08's output exactly.
+- [ ] **10 — Data quality audit (lists/dicts/tuples/sets)**:
+      `10_data_quality_audit/` — self-diagnosed gap: passing values
+      between functions using the right container type (dict config,
+      set membership/dedup, list accumulated across function calls,
+      tuple as a fixed multi-value return), not just passing a
+      DataFrame through a pipeline. Full spec + exact required function
+      signatures in that folder's README. **Next immediate step.**
+- [ ] **11 — Nested/semi-structured data**: structs, arrays, `explode` —
       common in real ingestion (JSON-like bronze-layer data). Not yet
       created.
-- [ ] **11 — Partitioning/caching basics**: not yet created.
+- [ ] **12 — Partitioning/caching basics**: not yet created.
 - [ ] **Cheat-sheet**: build your own Python/PySpark equivalence table by
       hand as you go — filter, groupby, join, window, dedupe, cast,
-      date-parse, null-handling, plus DataFrame-API-vs-SQL now that 09
-      covers both. Write it yourself, don't copy one.
+      date-parse, null-handling, DataFrame-API-vs-SQL. Write it
+      yourself, don't copy one.
 
 ## Notes
 
