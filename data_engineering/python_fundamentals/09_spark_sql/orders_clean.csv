@@ -1,0 +1,11 @@
+order_id,customer_name,region,order_date,total
+2001,John Smith,West,2026-01-05,1200.00
+2002,Priya Rao,West,2026-01-18,450.00
+2003,Wei Chen,West,2026-02-02,800.00
+2004,Jane Doe,East,2026-01-10,300.00
+2005,Maria Garcia,East,2026-01-25,950.00
+2006,Tom Baker,North,2026-01-12,600.00
+2007,Nina Volkov,North,2026-01-30,600.00
+2008,Ahmed Khan,South,2026-01-08,275.00
+2009,Sam Patel,South,2026-01-20,525.00
+2010,Emily Clark,South,2026-02-05,410.00

@@ -1,0 +1,15 @@
+order_id,customer_name,region,order_date,price,quantity
+1001, john smith,West,2026-01-15,"$1,200.50",2
+1002,JANE DOE, east ,01/16/2026,$85.00,1
+1003,Bob Lee,WEST,2026-01-17,$45.25,3
+1004,Priya Rao,South,2026-01-18,,2
+1003,Bob Lee,WEST,2026-01-17,$45.25,3
+1006, Wei Chen,east,01/19/2026,$310.00,-1
+1007,Maria Garcia,North,2026-01-20,$99.99,1
+1008,john smith,west,2026-01-21,$1200.50,0
+1009,Ahmed Khan,South ,01/22/2026,$60.00,4
+1010,Lucia Rossi,EAST,2026-01-23,not_a_price,2
+1011,Tom Baker,North,2026-01-24,$150.00,1
+1012,Nina Volkov, west,01/25/2026,$220.75,2
+1013,Sam Patel,South,2026-02-01,$75.00,3
+1014,Emily Clark,East,2026-02-02,$500.00,1

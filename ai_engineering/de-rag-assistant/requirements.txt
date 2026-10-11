@@ -1,0 +1,4 @@
+chromadb>=0.5
+ollama>=0.3
+requests>=2.31
+beautifulsoup4>=4.12
